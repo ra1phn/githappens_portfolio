@@ -1,5 +1,8 @@
-function () {
-    return 
-    <Link to="about">About</Link>
-    <Link to="/about">About Me!</Link>
+export default function About() {
+  return (
+    <div>
+      <h1>About Me!</h1>
+      <p>Welcome to my about page!</p>
+    </div>
+  );
 }
